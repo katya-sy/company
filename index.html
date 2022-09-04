@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/style.css">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <script src="js/script.js" defer></script>
     <title>Document</title>
 </head>
 <body>
@@ -56,7 +57,7 @@
 
         <section class="about">
             <div class="container">
-                <div class="about__top">
+                <div class="about__top grid">
                     <div class="about__col">
                         <ul class="list-reset about__list">
                             <li class="about__item">
@@ -94,14 +95,19 @@
                 </div><!-- /.about__top -->
 
                 <div class="about__video">
-                    <video src=""></video>
-                    <button class="about__play" aria-label="play video"></button>
+                    <video src="video.mp4" poster="img/video-poster.jpg" muted preload="metadata" playsinline></video>
+                    <button class="btn-reset about__play" aria-label="play video">
+                        <svg width="100" height="100" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <circle cx="50" cy="50" r="50" fill="white"/>
+                            <path d="M63 50L44.25 62.9904L44.25 37.0096L63 50Z" fill="#1D1D1F"/>
+                        </svg>
+                    </button>
                 </div>
             </div><!-- /.container -->
         </section>
 
         <section class="portfolio">
-            <h2 class="visally-hidden">portfolio</h2>
+            <h2 class="visually-hidden">portfolio</h2>
             <div class="container">
                 <ul class="list-reset portfolio__list">
                     <li class="portfolio-item">
