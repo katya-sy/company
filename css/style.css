@@ -338,3 +338,32 @@ body {
 .quote__author span {
     color: var(--color-grey);
 }
+
+
+/* Services */
+
+.services__img {
+    width: 100%;
+    height: 900px;
+    object-fit: cover;
+    margin-bottom: 190px;
+}
+
+.services-item {
+    border-top: 1px solid rgba(29, 29, 31, .4);
+    padding: 40px 0;
+}
+
+.services-item__title {
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 130%;
+    color: var(--color-dark);
+}
+
+.services-item__descr {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: var(--color-grey);
+}
