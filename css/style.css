@@ -261,6 +261,7 @@ body {
 
 .portfolio {
     padding-top: 190px;
+    padding-bottom: 190px;
 }
 
 .portfolio-item:not(:last-child) {
@@ -296,4 +297,44 @@ body {
     font-size: 16px;
     line-height: 150%;
     color: var(--color-dark);
+}
+
+
+/* Quote */
+
+.quote {
+    padding-bottom: 190px;
+}
+
+.quote__title {
+    margin-bottom: 50px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: var(--color-grey)
+}
+
+.quote__content {
+    margin: 0;
+}
+
+.quote__text {
+    margin-bottom: 30px;
+    max-width: 820px;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 150%;
+    color: var(--color-dark);
+}
+
+.quote__author {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: var(--color-dark);
+}
+
+.quote__author span {
+    color: var(--color-grey);
 }
