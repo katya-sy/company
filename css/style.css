@@ -342,6 +342,10 @@ body {
 
 /* Services */
 
+.services {
+    padding-bottom: 190px;
+}
+
 .services__img {
     width: 100%;
     height: 900px;
@@ -366,4 +370,97 @@ body {
     font-size: 16px;
     line-height: 150%;
     color: var(--color-grey);
+}
+
+
+/* Footer */
+
+.footer {
+    padding-top: 90px;
+    padding-bottom: 150px;
+    background-color: var(--color-dark);
+}
+
+.footer__logo {
+    display: inline-block;
+    margin-bottom: 48px;
+}
+
+.footer__address {
+    margin-bottom: 30px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: var(--color-grey);
+}
+
+.social {
+    display: flex;
+    align-items: center;
+}
+
+.social__item:not(:last-child) {
+    margin-right: 20px;
+}
+
+.social__link {
+    display: block;
+    width: 40px;
+    height: 40px;
+}
+
+.social__link svg {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.footer__title {
+    margin-bottom: 10px;
+    font-weight: 500;
+    font-size: 32px;
+    list-style: 130%;
+    color: var(--color-light);
+}
+
+.footer__form {
+    position: relative;
+    width: 100%;
+}
+
+.footer__input {
+    border: none;
+    border-bottom: 1px solid var(--color-grey);
+    padding: 24px 0;
+    padding-right: 30px;
+    width: 100%;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 16px;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: var(--color-light);
+    background-color: transparent;
+}
+
+.footer__input::placeholder {
+    color: var(--color-grey);
+}
+
+.footer__btn {
+    position: absolute;
+    right: 0;
+    bottom: 20px;
+    width: 24px;
+    height: 24px;
+}
+
+.footer__btn svg {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    fill: var(--color-light);
 }
