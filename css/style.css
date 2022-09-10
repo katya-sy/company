@@ -29,6 +29,8 @@ body {
     --color-light: #fff;
     --color-grey: #838383;
     --color-dark: #1d1d1f;
+
+    --offset: 190px;
 }
 
 .container {
@@ -181,8 +183,8 @@ body {
 /* About */
 
 .about__top {
-    padding-top: 190px;
-    margin-bottom: 190px;
+    padding-top: var(--offset);
+    margin-bottom: var(--offset);
 }
 
 .about__item:not(:last-child){
@@ -260,8 +262,8 @@ body {
 /* Portfolio */
 
 .portfolio {
-    padding-top: 190px;
-    padding-bottom: 190px;
+    padding-top: var(--offset);
+    padding-bottom: var(--offset);
 }
 
 .portfolio-item:not(:last-child) {
@@ -303,7 +305,7 @@ body {
 /* Quote */
 
 .quote {
-    padding-bottom: 190px;
+    padding-bottom: var(--offset);
 }
 
 .quote__title {
@@ -343,14 +345,14 @@ body {
 /* Services */
 
 .services {
-    padding-bottom: 190px;
+    padding-bottom: var(--offset);
 }
 
 .services__img {
     width: 100%;
     height: 900px;
     object-fit: cover;
-    margin-bottom: 190px;
+    margin-bottom: var(--offset);
 }
 
 .services-item {
