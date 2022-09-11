@@ -1,5 +1,8 @@
 html {
     box-sizing: border-box;
+    width: 100%;
+    max-width: 100%;
+    overflow-x: hidden;
 }
 
 *,
@@ -23,6 +26,8 @@ img {
 
 body {
     font-family: 'Inter', sans-serif;
+    width: 100%;
+    max-width: 100%;
     overflow-x: hidden;
 }
 
